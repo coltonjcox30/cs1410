@@ -1,0 +1,21 @@
+from account import Account
+
+class SavingsAccount(Account):
+
+    def __init__(self,ir,acc_name,acc_num,start_b):
+        Account.__init__(self,acc_name,acc_num,start_b)
+        self.ir = interest_rate
+
+    def deposit_Money(self,value):
+        if value >= 0:
+            self.start_b += value
+            return True
+        else:
+            return False
+
+    def withdrawl_Money(self,value):
+        if self.start_b -value < 0:
+            print "INNSUFFICIANT FUNDS!"
+        else:
+            self.start_b -= value
+            print self.start_b

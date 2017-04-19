@@ -1,0 +1,21 @@
+from account import Account
+def initial():
+	Acc_menu= ("""What type of account would youl like to track?
+	[c] Checkings
+	[s] Savings""")
+
+def checkingAcc()
+
+Account_holder = input("What is the name of the account holder?")
+Account_number = input("What is the account number?")
+Starting_Balance = input("What is the starting balance?")
+Overdraft = input("What is the overdraft limit?")
+
+option = ""
+
+Option_menu= ("""What would you like to do?
+[d] Deposit)
+[w] Withdraw
+[q] Quit""")
+
+
