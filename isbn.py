@@ -30,3 +30,4 @@ while option!="q":
         option=input()
 
 print ("Bye! Catch ya later!")
+print ("This is a test for git")
